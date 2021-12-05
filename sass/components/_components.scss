@@ -1,3 +1,79 @@
+body {
+  margin: 0px;
+
+  color: $secondary-text-color;
+  background-color: $primary-white-color;
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px, 30px, 0px;
+  color: #757575;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  font-style: normal;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 // logo
 
 .logo {
@@ -339,6 +415,8 @@ textarea::placeholder {
 
   color: $primary-white-color;
 
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -646,10 +724,16 @@ textarea::placeholder {
   width: 200px;
   height: 50px;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
   color: $primary-white-color;
   background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 1px solid transparent;
 
   cursor: pointer;
 }
@@ -657,7 +741,7 @@ textarea::placeholder {
 .footer-telegram {
   position: absolute;
   top: 15px;
-  right: -165px;
+  right: -175px;
 
   fill: $primary-white-color;
 
@@ -858,6 +942,14 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 
+.p-work-links:nth-child(3n) {
+  margin-right: 0;
+}
+
+.p-work-links:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .p-link-list:hover .text-list::before {
   transform: translateY(0);
 }
@@ -918,20 +1010,14 @@ textarea::placeholder {
   justify-content: center;
 }
 
-.p-work-links:nth-child(3n) {
-  margin-right: 0;
-}
-
-.p-work-links:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-
 .p-title {
   margin-top: 0px;
   margin-bottom: 4px;
 
   color: $title-text-color;
 
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
