@@ -1,2 +1,4 @@
-@import "./variables";
-@import "./normalize";
+@import "./base/base";
+@import "./utils/variables";
+@import "./layout/layouts";
+@import "./components/components";
