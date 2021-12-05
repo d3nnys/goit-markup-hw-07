@@ -795,8 +795,6 @@ textarea::placeholder {
   margin-top: 0;
   margin-bottom: 30px;
   color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -1403,8 +1401,6 @@ textarea::placeholder {
   margin-top: 0px;
   margin-bottom: 4px;
   color: #212121;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
