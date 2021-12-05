@@ -1,0 +1,36 @@
+.client {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.client-list:hover,
+.client-list:focus {
+  fill: $accent-color;
+  border-color: $accent-color;
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 170px;
+  border: 1px solid $primary-gray-color;
+  border-radius: 4px;
+
+  fill: $primary-gray-color;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.client-item {
+  height: 60px;
+  width: 106px;
+}
