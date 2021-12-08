@@ -1,4 +1,27 @@
-.mail-box {
+.footer-section__box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo__web {
+  color: $accent-color;
+
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-logo__studio {
+  color: $primary-white-color;
+
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-mail__box {
   display: flex;
   flex-wrap: wrap;
 
@@ -76,16 +99,7 @@
   height: 24px;
 }
 
-.footer-s {
-  color: $primary-white-color;
-
-  font-family: Raleway, cursive;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.footer-link .site-info {
+.footer-section__link {
   color: $primary-white-color;
 
   font-style: normal;
@@ -102,40 +116,39 @@
 }
 
 .footer-info:hover,
-.footer-link:hover {
+.footer-section__:hover {
   color: $primary-white-color;
 }
 
 .footer-info:focus,
-.footer-link:focus {
+.footer-section__:focus {
   color: $accent-color;
 }
 
-.f-item {
+.footer-section__item {
+  padding-bottom: 9px;
+}
+
+.footer-link {
   margin-top: 20px;
-  padding-bottom: 9px;
 }
 
-.f-item-second {
-  padding-bottom: 9px;
-}
-
-.f-white-text .link {
+.footer-section__list .link {
   color: $primary-white-color;
 
   font-style: normal;
   line-height: 1.71;
 }
 
-.f-white-text .link:focus {
+.footer-section__list .link:focus {
   color: $accent-color;
 }
 
-.f-white-text .link:hover {
+.footer-section__list .link:hover {
   color: $primary-white-color;
 }
 
-.second-block {
+.footer-social__box {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -144,7 +157,7 @@
   width: 206px;
 }
 
-.footer-socials {
+.footer-social__list {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -152,14 +165,14 @@
   width: 206px;
 }
 
-.footer-socials-item {
+.footer-socials__icon {
   width: 20px;
   height: 20px;
 
   fill: currentColor;
 }
 
-.footer-social-link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +193,7 @@
   }
 }
 
-.footer-title {
+.footer-section__title {
   color: $primary-white-color;
   stroke: #000000;
 
@@ -192,7 +205,14 @@
   margin-bottom: 20px;
 }
 
-.footer-box {
-  display: flex;
-  align-items: flex-start;
+.footer-social__title {
+  color: $primary-white-color;
+  stroke: #000000;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  padding: 0;
+  margin-bottom: 20px;
 }

@@ -1,16 +1,16 @@
-.client {
+.client-section__list {
   display: flex;
   text-align: center;
   justify-content: space-between;
 }
 
-.client-list:hover,
-.client-list:focus {
+.client-section__item:focus,
+.client-section__item:hover {
   fill: $accent-color;
   border-color: $accent-color;
 }
 
-.client-link {
+.client-section__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@
   }
 }
 
-.client-item {
+.client-section__icon {
   height: 60px;
   width: 106px;
 }
