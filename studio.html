@@ -388,12 +388,12 @@
               >
             </li>
             <li class="footer-section__item">
-              <a href="mailto:info@example.com" class="footer-info"
+              <a href="mailto:info@example.com" class="footer-section__info"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a href="tel:+380991111111" class="footer-info"
+              <a href="tel:+380991111111" class="footer-section__info"
                 >+38 099 111 11 11</a
               >
             </li>
@@ -404,28 +404,28 @@
           <ul class="footer-social__list">
             <li>
               <a href="" class="footer-social__link">
-                <svg class="footer-socials__icon">
+                <svg class="footer-social__icon">
                   <use href="./image/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="footer-social__link">
-                <svg class="footer-socials__icon">
+                <svg class="footer-social__icon">
                   <use href="./image/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="footer-social__link">
-                <svg class="footer-socials__icon">
+                <svg class="footer-social__icon">
                   <use href="./image/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="footer-social__link">
-                <svg class="footer-socials__icon">
+                <svg class="footer-social__icon">
                   <use href="./image/sprite.svg#icon-linkedin2"></use>
                 </svg>
               </a>
@@ -434,20 +434,22 @@
         </div>
         <div class="footer-mail__box">
           <h3 class="footer-section__title">Подпишитесь на рассылку</h3>
-          <div class="mail-window">
+          <div class="footer-mail__window">
             <label for="mail"></label>
             <input
               type="email"
-              class="footer-input"
+              class="footer-mail__input"
               name="mail"
               id="mail"
               placeholder="E-mail"
             />
           </div>
-          <div class="telegram">
-            <button type="button" class="telegram-btn">Подписаться</button>
-            <span class="footer-telegram">
-              <svg class="footer-icon">
+          <div class="footer-telegram__window">
+            <button type="button" class="footer-telegram__btn">
+              Подписаться
+            </button>
+            <span class="footer-telegram__span">
+              <svg class="footer-telegram__icon">
                 <use href="./image/sprite.svg#icon-icon-telegram"></use>
               </svg>
             </span>
@@ -457,36 +459,38 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="btn-close" data-modal-close>
-          <svg class="icon-btn">
+        <button type="button" class="modal-btn__close" data-modal-close>
+          <svg class="modal-icon__close">
             <use href="./image/sprite.svg#icon-X"></use>
           </svg>
         </button>
         <form class="form">
-          <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-          <div class="inputs">
+          <h3 class="form-modal__title">
+            Оставьте свои данные, мы вам перезвоним
+          </h3>
+          <div class="modal-input__box">
             <label for="name">Имя</label>
-            <input type="text" class="form-input" name="name" id="name" />
-            <span class="modal-icon">
-              <svg class="icon">
+            <input type="text" class="modal-input" name="name" id="name" />
+            <span class="modal-input__icon">
+              <svg class="modal-icon">
                 <use href="./image/sprite.svg#icon-person-modal"></use>
               </svg>
             </span>
           </div>
-          <div class="inputs">
+          <div class="modal-input__box">
             <label for="tel">Телефон</label>
-            <input type="tel" class="form-input" name="tel" id="tel" />
-            <span class="modal-icon">
-              <svg class="icon">
+            <input type="tel" class="modal-input" name="tel" id="tel" />
+            <span class="modal-input__icon">
+              <svg class="modal-icon">
                 <use href="./image/sprite.svg#icon-phone-modal"></use>
               </svg>
             </span>
           </div>
-          <div class="inputs">
+          <div class="modal-input__box">
             <label for="mail">Почта</label>
-            <input type="email" class="form-input" name="mail" id="mail" />
-            <span class="modal-icon">
-              <svg class="icon">
+            <input type="email" class="modal-input" name="mail" id="mail" />
+            <span class="modal-input__icon">
+              <svg class="modal-icon">
                 <use href="./image/sprite.svg#icon-email-modal"></use>
               </svg>
             </span>
@@ -494,15 +498,15 @@
           <label for="comment">Комментарий</label>
           <textarea
             name="comment"
-            class="text-window"
+            class="modal-text__window"
             id="comment"
             cols="55"
             rows="8"
             placeholder="Введите текст"
           ></textarea>
-          <div class="deed">
+          <div class="modal-contract">
             <ul>
-              <li class="deed-list">
+              <li class="modal-contract__item">
                 <input
                   class="checkbox"
                   type="checkbox"
@@ -510,16 +514,16 @@
                   value="text"
                   id="svg"
                 />
-                <span class="deed-icon"></span>
+                <span class="modal-contract__icon"></span>
                 <label for="соглашаюсь с рассылкой и принимаю условия договора"
                   >Соглашаюсь с рассылкой и принимаю
-                  <a href="" class="conditions">Условия договора</a>
+                  <a href="" class="modal-contract__link">Условия договора</a>
                 </label>
               </li>
             </ul>
           </div>
-          <div class="box-btn">
-            <button type="submit" class="modal-btn">Отправить</button>
+          <div class="modal-main__btn">
+            <button type="submit" class="modal-send__btn">Отправить</button>
           </div>
         </form>
       </div>
