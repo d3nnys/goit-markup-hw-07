@@ -1,4 +1,4 @@
-.nav-link {
+.site-nav__link {
   position: relative;
 
   &.current::after,
@@ -7,7 +7,7 @@
   }
 }
 
-.nav-link::after {
+.site-nav__link::after {
   content: "";
 
   position: absolute;
@@ -29,7 +29,7 @@
   margin-left: 50px;
 }
 
-.site-nav .item:not(:last-child) {
+.site-nav .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -46,7 +46,7 @@
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:hover {
   color: $accent-color;
 }
