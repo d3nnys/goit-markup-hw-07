@@ -1,31 +1,31 @@
-.p-btn {
+.portfolio-list__btn {
   display: flex;
   justify-content: center;
 
   margin-bottom: 56px;
 }
 
-.p-btn .item + .item {
+.portfolio-list__btn .portfolio-item + .portfolio-item {
   margin-left: 8px;
 }
 
-.p-button-second {
+.portfolio-button-second {
   width: 128px;
 }
 
-.p-button-third {
+.portfolio-button-third {
   width: 145px;
 }
 
-.p-button-fourth {
+.portfolio-button-fourth {
   width: 103px;
 }
 
-.p-button-fifth {
+.portfolio-button-fifth {
   width: 130px;
 }
 
-.p-button {
+.portfolio-button {
   border: 1px solid transparent;
   border-radius: 4px;
 

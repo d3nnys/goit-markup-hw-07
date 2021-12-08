@@ -208,11 +208,11 @@
 }
 
 .footer-section__info:hover,
-.footer-section__:hover {
+.footer-section__link:hover {
   color: $primary-white-color;
 }
 
 .footer-section__info:focus,
-.footer-section__:focus {
+.footer-section__link:focus {
   color: $accent-color;
 }
